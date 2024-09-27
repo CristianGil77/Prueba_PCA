@@ -4,3 +4,4 @@ Este proyecto contiene un **DAG** desarrollado para automatizar procesos relacio
 
 ## Estructura del Proyecto
 
+├── airflow-docker │ ├── dags │ │ └── script_dag.py # Aquí es donde se encuentra el DAG ├── logs ├── plugins ├── docker-compose.yml └── README.md
