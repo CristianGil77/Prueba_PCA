@@ -1,27 +1,32 @@
-# Proyecto RPA con Airflow
+# Prueba Técnica PCA Ingeniería
 
-Este proyecto fue desarrollado como una prueba para crear un RPA usando Airflow, con el propósito de automatizar la **extracción**, **transformación** y **carga** de los datos suministrados.
+Como parte de esta prueba, se desarrolló un RPA utilizando **Apache Airflow** para automatizar la **extracción**, **transformación** y **carga** diaria de los datos suministrados. Los resultados de este proceso se visualizan posteriormente en un dashboard de **Power BI**.
 
 ## Descripción
 
-- El **DAG** ha sido configurado para ejecutarse diariamente.
+Este repositorio incluye tanto el contenedor Docker de Airflow como el dashboard de Power BI.
+
 - El script con la definición del DAG se encuentra en la siguiente ruta:
 
   [airflow-docker/dags](./airflow-docker/dags)
 
-- Los datos suministrados de ventas y costos se encuentran en:
+- Los datos de ventas y costos proporcionados se almacenan en:
 
   [airflow-docker/data](./airflow-docker/data)
 
-- Después de que el DAG se ejecuta con éxito, el archivo generado con los resultados, **Datos_Modelo.xlsx**, se almacena en:
+- Al finalizar exitosamente la ejecución del DAG, el archivo generado con los resultados, **Datos_Modelo.xlsx**, se guarda en la siguiente ubicación:
 
   [airflow-docker/data/Datos_Modelo.xlsx](./airflow-docker/data/Datos_Modelo.xlsx)
 
-## Cómo ejecutar
+## Instrucciones para ejecutar
 
-Asegúrate de que Airflow está correctamente configurado y en funcionamiento dentro de Docker.
+Para ejecutar el DAG, sigue estos pasos tras clonar este repositorio:
 
-```bash
-docker-compose up airflow-init
-docker-compose up
-````
+1. Accede al directorio `airflow-docker`.
+2. Inicia el entorno de Airflow con los siguientes comandos:
+
+   ```bash
+   cd airflow-docker
+   docker-compose up airflow-init
+   docker-compose up
+   ```
