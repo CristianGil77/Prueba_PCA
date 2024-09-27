@@ -23,7 +23,7 @@ Este repositorio incluye tanto el contenedor Docker de Airflow como el dashboard
 Para ejecutar el DAG, sigue estos pasos tras clonar este repositorio:
 
 1. Accede al directorio `airflow-docker`.
-2. Inicia el entorno de Airflow con los siguientes comandos:
+2. Inicia el entorno de Airflow desde docker.
 
    ```bash
    cd airflow-docker
