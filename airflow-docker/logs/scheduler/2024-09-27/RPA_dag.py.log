@@ -258,3 +258,31 @@
 [2024-09-27T20:34:42.723+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:34:42.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-09-27T20:34:42.740+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:34:42.740+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_costos_ventas to 2024-09-27 08:00:00+00:00, run_after=2024-09-28 08:00:00+00:00
 [2024-09-27T20:34:42.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/RPA_dag.py took 0.066 seconds
+[2024-09-27T20:35:13.090+0000] {processor.py:186} INFO - Started process (PID=1699) to work on /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:35:13.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/RPA_dag.py for tasks to queue
+[2024-09-27T20:35:13.093+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:35:13.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:35:13.107+0000] {processor.py:925} INFO - DAG(s) 'etl_costos_ventas' retrieved from /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:35:13.121+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:35:13.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-27T20:35:13.139+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:35:13.139+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_costos_ventas to 2024-09-27 08:00:00+00:00, run_after=2024-09-28 08:00:00+00:00
+[2024-09-27T20:35:13.161+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/RPA_dag.py took 0.076 seconds
+[2024-09-27T20:44:12.325+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:44:12.327+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/RPA_dag.py for tasks to queue
+[2024-09-27T20:44:12.329+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:44:12.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:44:12.358+0000] {processor.py:925} INFO - DAG(s) 'etl_costos_ventas' retrieved from /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:44:12.395+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:44:12.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-27T20:44:12.422+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:44:12.422+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_costos_ventas to 2024-09-27 08:00:00+00:00, run_after=2024-09-28 08:00:00+00:00
+[2024-09-27T20:44:12.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/RPA_dag.py took 0.123 seconds
+[2024-09-27T20:44:42.971+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:44:42.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/RPA_dag.py for tasks to queue
+[2024-09-27T20:44:42.974+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:44:42.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:44:42.989+0000] {processor.py:925} INFO - DAG(s) 'etl_costos_ventas' retrieved from /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:44:43.004+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:44:43.003+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-27T20:44:43.024+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:44:43.024+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_costos_ventas to 2024-09-27 08:00:00+00:00, run_after=2024-09-28 08:00:00+00:00
+[2024-09-27T20:44:43.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/RPA_dag.py took 0.072 seconds
+[2024-09-27T20:45:13.829+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:45:13.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/RPA_dag.py for tasks to queue
+[2024-09-27T20:45:13.832+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:45:13.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:45:13.846+0000] {processor.py:925} INFO - DAG(s) 'etl_costos_ventas' retrieved from /opt/airflow/dags/RPA_dag.py
+[2024-09-27T20:45:13.861+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:45:13.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-09-27T20:45:13.879+0000] {logging_mixin.py:190} INFO - [2024-09-27T20:45:13.879+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_costos_ventas to 2024-09-27 08:00:00+00:00, run_after=2024-09-28 08:00:00+00:00
+[2024-09-27T20:45:13.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/RPA_dag.py took 0.071 seconds
