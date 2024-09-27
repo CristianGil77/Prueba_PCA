@@ -1,7 +1,27 @@
-# Proyecto Prueba PCA
+# Proyecto RPA con Airflow
 
-Este proyecto contiene un **DAG** desarrollado para automatizar procesos relacionados con la carga y transformación de datos. El script del DAG está localizado en la carpeta `dags` dentro del directorio `airflow-docker`.
+Este proyecto fue desarrollado como una prueba para crear un RPA usando Airflow, con el propósito de automatizar la **extracción**, **transformación** y **carga** de los datos suministrados.
 
-## Estructura del Proyecto
+## Descripción
 
-├── airflow-docker │ ├── dags │ │ └── script_dag.py # Aquí es donde se encuentra el DAG ├── logs ├── plugins ├── docker-compose.yml └── README.md
+- El **DAG** ha sido configurado para ejecutarse diariamente.
+- El script con la definición del DAG se encuentra en la siguiente ruta:
+
+  [airflow-docker/dags](./airflow-docker/dags)
+
+- Los datos suministrados de ventas y costos se encuentran en:
+
+  [airflow-docker/data](./airflow-docker/data)
+
+- Después de que el DAG se ejecuta con éxito, el archivo generado con los resultados, **Datos_Modelo.xlsx**, se almacena en:
+
+  [airflow-docker/data/Datos_Modelo.xlsx](./airflow-docker/data/Datos_Modelo.xlsx)
+
+## Cómo ejecutar
+
+Asegúrate de que Airflow está correctamente configurado y en funcionamiento dentro de Docker.
+
+```bash
+docker-compose up airflow-init
+docker-compose up
+````
