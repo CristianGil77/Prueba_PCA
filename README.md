@@ -6,7 +6,7 @@ Como parte de esta prueba, se desarrolló un RPA utilizando **Apache Airflow** p
 
 Este repositorio incluye tanto el contenedor Docker de Airflow como el dashboard de Power BI.
 
-- El script con la definición del DAG se encuentra en la siguiente ruta:
+- El DAG de Airflow está configurado para ejecutarse diariamente, y en caso de fallo, realizará hasta dos intentos adicionales con un intervalo de 15 minutos entre cada uno. El script que define el DAG se encuentra en la siguiente ruta:
 
   [airflow-docker/dags](./airflow-docker/dags)
 
