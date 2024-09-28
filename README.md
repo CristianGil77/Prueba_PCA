@@ -30,3 +30,9 @@ Para ejecutar el DAG, sigue estos pasos tras clonar este repositorio:
    docker-compose up airflow-init
    docker-compose up
    ```
+Una vez que la aplicación esté en funcionamiento, podrá acceder al panel de control en [http://localhost:8080](http://localhost:8080) utilizando las siguientes credenciales:
+
+- **Usuario**: `airflow`
+- **Contraseña**: `airflow`
+
+En la pestaña "DAGs", encontrará el flujo de trabajo llamado **etl_costos_ventas**.
